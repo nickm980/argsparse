@@ -2,6 +2,7 @@
 Java command line argument parser. Parse arguments and execute commands with ease, in a modular and simple way
 
 ## Installation
+Add the below to your maven repositories and dependencies
 ```maven
 	<repositories>
 		<repository>
