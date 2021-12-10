@@ -3,7 +3,7 @@ Java command line argument parser. Parse arguments and execute commands with eas
 
 ## Installation
 
-#### Maven
+### Maven
 Add the below to your maven pom.xml repositories and dependencies, or download as a jar and add to the build path. [New to maven?](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html#the-pom)
 ```html
 <repositories>
