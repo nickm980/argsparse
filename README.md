@@ -15,7 +15,7 @@ Add the below to your maven pom.xml repositories and dependencies. [New to maven
 <dependency>
    <groupId>com.github.nickm980</groupId>
    <artifactId>argsparse</artifactId>
-   <version>Tag</version>
+   <version>f8a66158fa</version>
 </dependency>
 ```
 
