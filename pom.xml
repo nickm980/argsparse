@@ -10,19 +10,48 @@
 	<description>Annotation based argument parsing</description>
 
 	<properties>
-		<java.version>1.15</java.version>
+		<java.version>1.8</java.version>
 		<maven.compiler.release>8</maven.compiler.release>
 	</properties>
 
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>
+
 			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.1</version>
-				<configuration>
-					<release>15</release>
+				<version>3.2</version>
+				<configuration> <!-- Compile java 7 compatible bytecode -->
+					<source>1.7</source>
+					<target>1.7</target>
 				</configuration>
+			</plugin>
+
+			<plugin>  <!-- Create sources.jar -->
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>attach-javadocs</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>
