@@ -5,17 +5,17 @@ Java command line argument parser. Parse arguments and execute commands with eas
 Add the below to your maven repositories and dependencies
 ```maven
 <repositories>
-	<repository>
-		<id>jitpack.io</id>
-		<url>https://jitpack.io</url>
-	</repository>
+   <repository>
+      <id>jitpack.io</id>
+      <url>https://jitpack.io</url>
+   </repository>
 </repositories>
 ```
 ```maven
 <dependency>
-	<groupId>com.github.nickm980</groupId>
-	<artifactId>argsparse</artifactId>
-	<version>Tag</version>
+   <groupId>com.github.nickm980</groupId>
+   <artifactId>argsparse</artifactId>
+   <version>Tag</version>
 </dependency>
 ```
 
