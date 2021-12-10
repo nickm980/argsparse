@@ -2,7 +2,7 @@
 Java command line argument parser. Parse arguments and execute commands with ease, in a modular and simple way
 
 ## How To Use
-Create a subclass of [ICommand](https://github.com/nickm980/argsparse/blob/7455cd396f53061f9b437416f82cf20b0c49d459/src/me/nickm980/argsparse/ICommand.java) and add code to execute under the onCommand method, or extend [CommandExecutor](https://github.com/nickm980/argsparse/blob/7455cd396f53061f9b437416f82cf20b0c49d459/src/me/nickm980/argsparse/CommandExecutor.java).
+Create a subclass of [ICommand](https://github.com/nickm980/argsparse/blob/7455cd396f53061f9b437416f82cf20b0c49d459/src/me/nickm980/argsparse/ICommand.java) and add code to execute under the onCommand method, or create a subclass of [CommandExecutor](https://github.com/nickm980/argsparse/blob/7455cd396f53061f9b437416f82cf20b0c49d459/src/me/nickm980/argsparse/CommandExecutor.java) for annotation based commands.
 
 ### Creating a new command
 An example of a command with annotations.
@@ -68,3 +68,13 @@ public class Main {
     }
 }
 ```
+## Contributing
+Feel free to submit issues, requests, and contribute to the project. In general, we follow the "fork-and-pull" Git workflow.
+
+1. Fork the repo on GitHub
+2. Clone the project to your own machine
+3. Commit changes to your own branch
+4. Push your work back up to your fork
+5. Submit a Pull request so that we can review your changes
+
+*NOTE: Be sure to merge the latest from "upstream" before making a pull request!*
