@@ -4,19 +4,19 @@ Java command line argument parser. Parse arguments and execute commands with eas
 ## Installation
 Add the below to your maven repositories and dependencies
 ```maven
-	<repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
-	</repositories>
+<repositories>
+	<repository>
+		<id>jitpack.io</id>
+		<url>https://jitpack.io</url>
+	</repository>
+</repositories>
 ```
 ```maven
-	<dependency>
-	    <groupId>com.github.nickm980</groupId>
-	    <artifactId>argsparse</artifactId>
-	    <version>Tag</version>
-	</dependency>
+<dependency>
+	<groupId>com.github.nickm980</groupId>
+	<artifactId>argsparse</artifactId>
+	<version>Tag</version>
+</dependency>
 ```
 
 ## How To Use
