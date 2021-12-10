@@ -1,6 +1,23 @@
 # args-parse
 Java command line argument parser. Parse arguments and execute commands with ease, in a modular and simple way
 
+## Installation
+```maven
+	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+```
+```maven
+	<dependency>
+	    <groupId>com.github.nickm980</groupId>
+	    <artifactId>argsparse</artifactId>
+	    <version>Tag</version>
+	</dependency>
+```
+
 ## How To Use
 Create a subclass of [ICommand](https://github.com/nickm980/argsparse/blob/7455cd396f53061f9b437416f82cf20b0c49d459/src/me/nickm980/argsparse/ICommand.java) and add code to execute under the onCommand method, or create a subclass of [CommandExecutor](https://github.com/nickm980/argsparse/blob/7455cd396f53061f9b437416f82cf20b0c49d459/src/me/nickm980/argsparse/CommandExecutor.java) for annotation based commands.
 
