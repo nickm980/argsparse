@@ -1,4 +1,4 @@
-package me.nickm980.argsparse.example;
+package examples;
 
 import java.util.ArrayList;
 

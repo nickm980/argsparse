@@ -1,4 +1,4 @@
-package me.nickm980.argsparse.example;
+package examples;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -27,6 +27,7 @@ public class Main {
 	    BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 	    String command = reader.readLine();
 	    
+	    //Must execute the command based on the name of the argument.
 	    CommandRegistry.executeCommand(command, null);
 	}
     }
