@@ -2,7 +2,7 @@
 Java command line argument parser. Parse arguments and execute commands with ease, in a modular and simple way
 
 ## How To Use
-Create a subclass of [ICommand](https://github.com/nickm980/argsparse/blob/7455cd396f53061f9b437416f82cf20b0c49d459/src/me/nickm980/argsparse/ICommand.java) and add code to execute under the onCommand method, or extend [CommandExecutor](https://github.com/nickm980/argsparse/blob/7455cd396f53061f9b437416f82cf20b0c49d459/src/me/nickm980/argsparse/CommandExecutor.java).
+Create a subclass of [ICommand](https://github.com/nickm980/argsparse/blob/7455cd396f53061f9b437416f82cf20b0c49d459/src/me/nickm980/argsparse/ICommand.java) and add code to execute under the onCommand method, or create a subclass of [CommandExecutor](https://github.com/nickm980/argsparse/blob/7455cd396f53061f9b437416f82cf20b0c49d459/src/me/nickm980/argsparse/CommandExecutor.java) for annotation based commands.
 
 ### Creating a new command
 An example of a command with annotations.
