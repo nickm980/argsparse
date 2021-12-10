@@ -3,7 +3,7 @@ Java command line argument parser. Parse arguments and execute commands with eas
 
 ## Installation
 Add the below to your maven pom.xml repositories and dependencies. [New to maven?](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html#the-pom)
-```yaml
+```html
 <repositories>
    <repository>
       <id>jitpack.io</id>
@@ -11,7 +11,7 @@ Add the below to your maven pom.xml repositories and dependencies. [New to maven
    </repository>
 </repositories>
 ```
-```xml
+```html
 <dependency>
    <groupId>com.github.nickm980</groupId>
    <artifactId>argsparse</artifactId>
